@@ -6,7 +6,7 @@ const Accordians =()=>{
     const [data,setdata]=useState(Api);
     return(
         <div>
-            <h1>Questions and Answers</h1>
+            <h1>Questions and Answer</h1>
         {
            data.map((curElem)=>{
             const {id} = curElem
